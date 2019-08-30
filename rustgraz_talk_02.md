@@ -547,18 +547,3 @@ assert_eq!(Some(&3), iter.next());
   <dt>Topics to be done</dt>
    <dd>traits, crates, borrowing, memory management, lifetimes, collections, strings, Unicode, regex, CSV/JSON/XML/YAML, i18n, logging, multithreading, data structures, documentation, cross compilation, concurrency, web assembly, …</dd>
 </dl>
-
-<!-- 
-### Floating point number: denormal numbers
-
-TODO
-
-subnormal numbers
-denormal numbers
-
-In order to represent a number x with single precision IEEE-754, you need to find exponent e and significand s such that
-[$$] x = \frac{s}{2^{23}} \cdot 2^e [/$$]
-[$]1/5[/$] cannot be represented with integers s and e in 23 bits and 8 bits precisely. Its binary expansion is infinite:
-[$] \frac15 = \sum_{n=1}^{\infty} \frac{3}{{(2^4)}^n} [/$]
-
--->
